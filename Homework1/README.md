@@ -16,4 +16,6 @@
 
 [Problem 8](https://KensieCarr.github.io/Math-4610/Homework1/Problem8)
 
-[Problem 8](https://KensieCarr.github.io/Math-4610/Homework1/Problem9)
+[Problem 9](https://KensieCarr.github.io/Math-4610/Homework1/Problem9)
+
+[Problem 10](https://KensieCarr.github.io/Math-4610/Homework1/Problem10)
