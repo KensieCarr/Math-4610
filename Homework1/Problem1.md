@@ -32,6 +32,6 @@ void machineEpsilon(float EPS) {
   cout << "Machine Epsilon is: " << prev_epsilon << endl;
 }
 ```
-[full code](https://KensieCarr.github.io/Math-5620/SoftwareManual/machine_epsilon.cpp)
+[full code](https://KensieCarr.github.io/Math-4610/Homework1/maceps.cpp)
 
 **Last Modified:** September/2018
