@@ -14,5 +14,5 @@
 {% endraw %}
 
 <p>
-  \LaTeX  
+  \(\int x dx\)  
 </p>
