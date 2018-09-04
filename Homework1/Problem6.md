@@ -5,9 +5,11 @@
 <p>
 a. \( \int x \sin(2x)dx \\
   u = x\ \ \ \ \ dv = \sin(2x) \\
-  du = 1\ \ \ \ \ v = -\frac{1}{2}\cos(2x)
+  du = 1\ \ \ \ \ v = -\frac{1}{2}\cos(2x) \\
   = -x\frac{1}{2}\cos(2x) + \int \frac
-  {1}{2}\cos(2x) dx \)  
+  {1}{2}\cos(2x) dx \\
+  = -x\frac{1}{2}\cos(2x) + -\frac{1}{4}\sin(2x)
+  \)  
   
 b. \( \int x e^x^2 dx \)
 
