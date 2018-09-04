@@ -11,11 +11,11 @@ a. \( \int x \sin(2x)dx \\
   = -x\frac{1}{2}\cos(2x) + -\frac{1}{4}\sin(2x)
   \)  
   
-b. \( \int x e^x^2 dx \)
+b. \( \int x e^{x^2} dx \)
 
 c. \( \int x e^x dx \)
 
-d. \( \int e^x^2 dx \)
+d. \( \int e^{x^2} dx \)
 
 e. \( \int \sqrt{1 + x} dx \)
 
