@@ -8,5 +8,23 @@ a. \( \int x \sin(2x)dx \\
   du = 1\ \ \ \ \ v = -\frac{1}{2}\cos(2x)
   = -x\frac{1}{2}\cos(2x) + \int \frac
   {1}{2}\cos(2x) dx \)  
+  
+b. \( \int x e^x^2 dx \)
+
+c. \( \int x e^x dx \)
+
+d. \( \int e^x^2 dx \)
+
+e. \( \int \sqrt{1 + x} dx \)
+
+f. \( \int \sec(\theta) d\theta \)
+
+g. \( \int \sec^2(\theta) d\theta \)
+
+h. \( \int h \sech^2(\theta) d\theta \)
+
+i. \( \int \frac{x^2 + 2}{7-x^2} dx \)
+
+j. \( \int \frac{1}{ap - bp^2} dp \)
 </p>
   
