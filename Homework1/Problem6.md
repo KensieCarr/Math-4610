@@ -21,7 +21,13 @@ b. \( \int x e^{x^2} dx  \\
   \frac{1}{2} e^{x^2}
 \)
 
-c. \( \int x e^x dx \)
+c. \( \int x e^x dx \\
+u = x\ \ \ \ \ dv = e^x \\
+du = 1\ \ \ \ \ v = e^x \\
+= xe^x - \int e^x dx \\
+= xe^x - e^x \\
+= e^x(x - 1)
+\)
 
 d. \( \int e^{x^2} dx \)
 
