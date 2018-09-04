@@ -2,17 +2,7 @@
 
 ## Problem 10
 
-
-{% raw %}
-
-\\(
-
-
-
-\\)
-
-{% endraw %}
-
 <p>
-  \(\int x dx\)  
+  \(\frac{dx}{dx} = 0.1x - 0.003x^2 \) and \( x(0) = 4 \\
+  \frac{dx}{dt} = 0.1x - 0.003x^2 \) and \( x(0) = 400 \)
 </p>
