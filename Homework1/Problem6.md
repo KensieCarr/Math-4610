@@ -37,7 +37,7 @@ f. \( \int \sec(\theta) d\theta \)
 <br>
 g. \( \int \sec^2(\theta) d\theta \)
 <br>
-h. \( \int h \sech^2(\theta) d\theta \)
+h. \( \int \sech^2(\theta) d\theta \)
 <br>
 i. \( \int \frac{x^2 + 2}{7-x^2} dx \)
 <br>
