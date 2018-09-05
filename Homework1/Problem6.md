@@ -15,10 +15,10 @@ b. \( \int x e^{x^2} dx  \\
   u = x^2 \\
   du = 2x dx \\
   dx = \frac{du}{2x} \\
-  \int x e^u \frac{du}{2x} \\
-  \int \frac{1}{2} e^u du \\
-  \frac{1}{2} e^u \\
-  \frac{1}{2} e^{x^2}
+  = \int x e^u \frac{du}{2x} \\
+  = \int \frac{1}{2} e^u du \\
+  = \frac{1}{2} e^u \\
+  = \frac{1}{2} e^{x^2}
 \)
 <br>
 c. \( \int x e^x dx \\
@@ -31,7 +31,12 @@ du = 1\ \ \ \ \ v = e^x \\
 <br>
 d. \( \int e^{x^2} dx \)
 <br>
-e. \( \int \sqrt{1 + x} dx \)
+e. \( \int \sqrt{1 + x} dx \\
+  u = 1 + x \\
+  du = 1 dx \\
+  = \int \sqrt{u} du \\
+  = \frac{2}{3}u^{\frac{3}{2}}
+  = \frac{2}{3}(1 + x)^{\frac{3}{2}}\)
 <br>
 f. \( \int \sec(\theta) d\theta \)
 <br>
