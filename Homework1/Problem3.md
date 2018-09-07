@@ -8,12 +8,8 @@
 
 **Language:** C++
 
-**Description/Purpose:** 
-
-**Input:** ![Input](https://KensieCarr.github.io/Math-4610/Homework1/Problem3Input.JPG)
-
-**Output:** 
-
-**Usage/Example:**
+ **Usage/Example:** 
+ 
+ ![Usage](https://KensieCarr.github.io/Math-4610/Homework1/Problem3Input.JPG)
 
 **Last Modified:** September/2018
