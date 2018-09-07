@@ -10,5 +10,5 @@
   <p>
   $x = \frac{1100e^{\frac{t}{10}}}{4 + 33e^{\frac{t}{10}}}
  $
-  ![Graph 2](https://kensiecarr.github.io/Math-4610/Homework1/Problem10Graph2.png)
 </p>
+![Graph 2](https://kensiecarr.github.io/Math-4610/Homework1/Problem10Graph2.png)
