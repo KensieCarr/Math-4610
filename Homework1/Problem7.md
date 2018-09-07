@@ -38,5 +38,79 @@ therefore the roots of the polynomial are
 </p>
  
 **Implementation/Code:** 
+```c
+#include <iostream>
+#include <array>
+#include <math.h>
+using namespace std;
 
+void quadForm(int a, int b, int c);
+float* imaginaryRoots(int a, int b, int c);
+float* realRoots(int a, int b, int c);
+void printReal(float*);
+void printImaginary(float*);
+
+int main() {
+	int t;
+	int a;
+	int b;
+	int c;
+
+	cout << "a = " << endl;
+	cin >> a;
+	if (a == 0) {
+		cout << "This is not a quadratic polynomial." << endl;
+		return 0;
+	}
+	cout << "b = " << endl;
+	cin >> b;
+	cout << "c = " << endl;
+	cin >> c;
+	quadForm(a, b, c);
+	cin >> t;
+}
+
+void quadForm(int a, int b, int c) {
+	float *roots;
+	if (sqrt(b) - (4 * a * c) >= 0) {
+		roots = realRoots(a, b, c);
+		printImaginary(roots);
+	}
+	else {
+		roots = realRoots(a, b, c);
+		printReal(roots);
+	}
+	
+}
+
+float* imaginaryRoots(int a, int b, int c) {
+	float roots[2];
+	cout << "You have entered the imaginaryRoots function " << endl;
+	roots[0] = (-b + sqrt(-(b ^ 2 - (4 * a*c)))) / (2 * a);
+	roots[1] = (-b - sqrt(-(b ^ 2 - (4 * a*c)))) / (2 * a);
+		return roots;
+}
+
+float* realRoots(int a, int b, int c) {
+	float roots[2];
+	cout << "You have entered the realRoots function " << endl;
+	roots[0] = (-b + sqrt(b^2 - (4*a*c))) / (2 * a);
+	roots[1] = (-b - sqrt(b^2 - (4*a*c))) / (2 * a);
+	return roots;
+}
+
+void printReal(float* roots) {
+	cout << "The roots are ";
+	for (int i = 0; i < 2; i++) {
+		cout << roots[i] << " ";
+	}
+}
+
+void printImaginary(float* roots) {
+	cout << "The roots are ";
+	for (int i = 0; i < 2; i++) {
+		cout << roots[i] << "i ";
+	}
+}
+```
 **Last Modified:** September/2018
