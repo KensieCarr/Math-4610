@@ -1,6 +1,8 @@
 # Homework 1
 
-[Problem 1](https://KensieCarr.github.io/Math-4610/Homework1/Problem1)
+[Problem 1a](https://KensieCarr.github.io/Math-4610/Homework1/Problem1a)
+
+[Problem 1b](https://KensieCarr.github.io/Math-4610/Homework1/Problem1b)
 
 [Problem 2](https://KensieCarr.github.io/Math-4610/Homework1/Problem2)
 
