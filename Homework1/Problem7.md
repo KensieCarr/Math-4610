@@ -8,10 +8,10 @@
 **Language:** C++
 
 **Description/Purpose:** 
-This routine will take a quadratic polynomial <p> $ax^2 + bx + c = 0 $ </p> and find the existing solutions.
+This routine will take a quadratic polynomial $ax^2 + bx + c = 0 $ and find the existing solutions.
 
 **Input:** 
-The inputs are the coefficients of the polynomial <p> $a,b,c$ </p>.
+The inputs are the coefficients of the polynomial $a,b,c$ .
 
 **Output:** 
 The outputs are the solutions to the quadratic polynomial, otherwise known as the roots. The solutions will be output as an array.
