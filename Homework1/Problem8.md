@@ -14,8 +14,8 @@ a. $ \frac{dx}{dt} = 3x $ and $x(0) = 1.0 \\
  1 = e^{3(0) + c} \\
  1 = e^c \\
  c = 0 \\
- x = e^{3t}
- $
+ x = e^{3t} 
+ $ 
  <br>
  b. $\frac{dx}{dt} = 3tx$ and $x(0) = 1.0 \\
  dx = 3tx dt \\
@@ -26,8 +26,8 @@ a. $ \frac{dx}{dt} = 3x $ and $x(0) = 1.0 \\
  x(0) = 1 \\
  1 = e^{\frac{3}{2}(0)^2 + c} \\
  c = 0 \\
- x = e^{\frac{3}{2}t^2}
- $
+ x = e^{\frac{3}{2}t^2} 
+ $ 
  <br>
  c. $\frac{dx}{dt} = 0.1x - 0.003x^2$ and $x(0) = 4 \\
  dx = 0.1x - 0.003x^2 dt \\
@@ -44,18 +44,27 @@ A = 10 \\
 B = 0.03 \\
 \frac{10}{x} + \frac{0.03}{0.1 - 0.003x} dx = dt \\
 \int \frac{10}{x} + \frac{0.03}{0.1 - 0.003x} dx = \int dt \\
-10\ln(x) -10\ln(3x - 100)  = t + c \\
-\ln(x) - \ln(3x - 100) = \frac{t}{10} + c\\
-x - 3x + 100 = e^{\frac{t}{10} + c} \\
--2x = e^{\frac{t}{10} + c} - 100 \\
-x = -\frac{1}{2}e^{\frac{t}{10} + c} + 50 \\
+10\ln(x) -10\ln(-3x + 100)  = t + c \\
+\ln(x) - \ln(-3x + 100) = \frac{t}{10} + c\\
+\ln(\frac{x}{-3x + 100}) = \frac{t}{10} + c \\
+\frac{x}{-3x+100} = e^{\frac{t}{10} + c} \\
+x = e^{\frac{t}{10} + c}(-3x + 100) \\
+x = -3xe^{\frac{t}{10} + c} + 100e^{\frac{t}{10} + c} \\
+x + 3xe^{\frac{t}{10} + c} = 100e^{\frac{t}{10} + c} \\
+x(1 + 3e^{\frac{t}{10} + c}) = 100e^{\frac{t}{10} + c} \\
+x = \frac{100e^{\frac{t}{10} + c}}{1 + 3e^{\frac{t}{10} + c}} \\
 x(0) = 4 \\
-4 = -\frac{1}{2}e^{\frac{0}{10} + c} + 50 \\
--46 = -\frac{1}{2}e^c \\
-92 = e^c \\
-\ln(92) = c \\
-c \approx 4.5 \\
-x = -\frac{1}{2}e^{\frac{t}{10} + 4.5} + 50 
+4 = \frac{100e^{\frac{0}{10} + c}}{1 + 3e^{\frac{0}{10} + c}} \\
+4 = \frac{100e^c}{1+3e^c} \\
+4(1+3e^c) = 100e^c \\
+4 + 12e^c = 100e^c \\
+4 = 88e^c \\
+\frac{1}{22} = e^c \\
+c = \ln(\frac{1}{22}) = -\ln(22) \\
+c \approx -3.09 \\
+x = \frac{100e^{\frac{t}{10} - \ln(22)}}{1 + 3e^{\frac{t}{10} - \ln(22)}} \\
+x = \left[ \frac{(100e^{\frac{t}{10}})\frac{1}{22}}{1+ 3e^{\frac{t}{10}}\frac{1}{22}} \right] \times \frac{22}{22} \\
+x = \frac{100e^{\frac{t}{10}}}{22 + 3e^{\frac{t}{10}}} 
  $ 
  <br>
  d. $\frac{dx}{dt} = 0.1x - 0.003x^2$ and $x(0) = 400 \\
@@ -73,16 +82,25 @@ A = 10 \\
 B = 0.03 \\
 \frac{10}{x} + \frac{0.03}{0.1 - 0.003x} dx = dt \\
 \int \frac{10}{x} + \frac{0.03}{0.1 - 0.003x} dx = \int dt \\
-10\ln(x) -10\ln(3x - 100)  = t + c \\
-\ln(x) - \ln(3x - 100) = \frac{t}{10} + c\\
-x - 3x + 100 = e^{\frac{t}{10} + c} \\
--2x = e^{\frac{t}{10} + c} - 100 \\
-x = -\frac{1}{2}e^{\frac{t}{10} + c} + 50 \\
+10\ln(x) -10\ln(-3x + 100)  = t + c \\
+\ln(x) - \ln(-3x + 100) = \frac{t}{10} + c\\
+\ln(\frac{x}{-3x + 100}) = \frac{t}{10} + c \\
+\frac{x}{-3x+100} = e^{\frac{t}{10} + c} \\
+x = e^{\frac{t}{10} + c}(-3x + 100) \\
+x = -3xe^{\frac{t}{10} + c} + 100e^{\frac{t}{10} + c} \\
+x + 3xe^{\frac{t}{10} + c} = 100e^{\frac{t}{10} + c} \\
+x(1 + 3e^{\frac{t}{10} + c}) = 100e^{\frac{t}{10} + c} \\
+x = \frac{100e^{\frac{t}{10} + c}}{1 + 3e^{\frac{t}{10} + c}} \\
 x(0) = 400 \\
-400 = -\frac{1}{2}e^{\frac{0}{10} + c} + 50 \\
-350 = -\frac{1}{2}e^{c} \\
-700 = e^c \\
-c = \ln(700) \\
-c \approx 6.6 \\
-x = -\frac{1}{2}e^{\frac{t}{10} + 6.6} + 50 $
-  </p>
+400 = \frac{100e^{\frac{0}{10} + c}}{1 + 3e^{\frac{0}{10} + c}} \\
+400 = \frac{100e^c}{1+3e^c} \\
+400(1+3e^c) = 100e^c \\
+400 + 1200e^c = 100e^c \\
+400 = -1100e^c \\
+-e^c = \frac{400}{1100} \\
+c = -\ln(\frac{4}{11})  \\
+x = \frac{100e^{\frac{t}{10} -\ln(\frac{4}{11})}}{1 + 3e^{\frac{t}{10} -\ln(\frac{4}{11})}} \\
+x = \left[ \frac{100e^{\frac{t}{10}}\frac{11}{4}}{1 + 3e^{\frac{t}{10}}\frac{11}{4}} \right] \times \frac{4}{4} \\
+x = \frac{1100e^{\frac{t}{10}}}{4 + 33e^{\frac{t}{10}}}
+$
+</p>
