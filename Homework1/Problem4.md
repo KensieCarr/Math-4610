@@ -37,6 +37,7 @@ int main() {
 
 **Output:** 
 Hello World from thread 0
+
 There are 1 threads!
 
 **Last Modified:** September/2018
