@@ -13,6 +13,7 @@ This routine computes the relative error in the approximation of one number by a
 
 **Input:**
 z = single value solution
+
 y = numerical method produced solution
 
 **Output:** 
