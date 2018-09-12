@@ -13,13 +13,18 @@ This routine computes the absolute error in the approximation of one number by a
 
 **Input:**
 z = single value solution
+
 y = numerical method produced solution
 
 **Output:** 
 E = Absolute Error
 
 **Usage/Example:**
-Suppose that z = 2.2, while some computed solution y = 2.20345. The absolute error can be computed using |E| = |y - z|. In this case the absolute error is 0.00345 or 3.45 x 10^{-3}
+Suppose that z = 2.2, while some computed solution y = 2.20345. The absolute error can be computed using 
+<p> 
+    $|E| = |y - z| $
+</p>
+In this case the absolute error is 0.00345 or 3.45 x 10^{-3}
 
 **Implementation/Code:** 
 ```c++
