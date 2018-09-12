@@ -22,7 +22,7 @@ E = Absolute Error
 **Usage/Example:**
 Suppose that z = 2.2, while some computed solution y = 2.20345. The relative error is defined by 
 <p>
-  $|E| = \left( \dfrac{y-z}{z} \right) $
+  $|E| = \left| \dfrac{y-z}{z} \right| $
   </p>
   In this example the relative error is 1.57 x 10^{-3}.
 
