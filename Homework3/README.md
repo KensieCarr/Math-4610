@@ -10,7 +10,7 @@
 
 [Problem 2b](https://KensieCarr.github.io/Math-4610/Homework3/Problem2b)
 
-[Problem 2d](https://KensieCarr.github.io/Math-4610/Homework3/Problem2c)
+[Problem 2c](https://KensieCarr.github.io/Math-4610/Homework3/Problem2c)
 
 [Problem 3a](https://KensieCarr.github.io/Math-4610/Homework3/Problem3a)
 
