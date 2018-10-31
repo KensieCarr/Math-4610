@@ -1,9 +1,9 @@
 # Solution Manual
 
 ## Basics
-Relative Error
+[Absolute Error](https://KensieCarr.github.io/Math-4610/Homework2/Problem1a)
 
-Absolute Error
+[Relative Error](https://KensieCarr.github.io/Math-4610/Homework2/Problem1b)
 
 ## Error Code
 [Single Precision Machine Epsilon](https://kensiecarr.github.io/Math-4610/Homework1/Problem1a)
