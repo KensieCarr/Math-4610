@@ -55,7 +55,7 @@ reduced row echelon form matrix
   1 & 0 & 0 \\
   0 & 1 & 0 \\
   0 & 0 & 1
-  \end{matrix} 
+  \end{matrix} $
  </p>
 
 **Implementation/Code:** 
