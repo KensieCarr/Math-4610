@@ -12,4 +12,6 @@
 
 [Homework 4](https://KensieCarr.github.io/Math-4610/Homework4)
 
-## [Bisket](https://KensieCarr.github.io/Math-4610/Bisket)
+[Homewok 5](https://KensieCarr.github.io/Math-4610/Homework5)
+
+[Homework 6](https://KensieCarr.github.io/Math-4610/Homework6)
