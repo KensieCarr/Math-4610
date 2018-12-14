@@ -5,7 +5,7 @@ def scalarVecMultiply(scalar, vector):
     return(vectorFinal)
 
 if __name__ == '__main__':
-    from utils import inputVector
+    from utils import inputVector, vStr
     scalar = input("Input scalar multplier: ")
     vector = inputVector()
-    print(scalar, "*", vector, "=", scalarVecMultiply(scalar, vector))
+    print("{} * {} = {}".format(scalar, vStr(vector), vStr(scalarVecMultiply(scalar, vector))))

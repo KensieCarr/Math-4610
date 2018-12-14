@@ -5,6 +5,6 @@ def dotProduct(vectorOne, vectorTwo):
     return product
 
 if __name__ == '__main__':
-    from utils import inputVectors
+    from utils import inputVectors, vStr
     vectors = inputVectors()
-    print(vectors[0], "*", vectors[1], "=", dotProduct(vectors[0], vectors[1]))
+    print("{0} * {1} = {2}".format(vStr(vectors[0]), vStr(vectors[1]), dotProduct(vectors[0], vectors[1])))

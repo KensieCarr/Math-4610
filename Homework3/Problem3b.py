@@ -5,6 +5,6 @@ def subtractVectors(vectorOne, vectorTwo):
     return(vectorFinal)
 
 if __name__ == '__main__':
-    from utils import inputVectors
+    from utils import inputVectors, vStr
     vectors = inputVectors()
-    print(vectors[0], "-", vectors[1], "=", subtractVectors(vectors[0], vectors[1]))
+    print("{} - {} = {}".format(vStr(vectors[0]), vStr(vectors[1]), vStr(subtractVectors(vectors[0], vectors[1]))))
