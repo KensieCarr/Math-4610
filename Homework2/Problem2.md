@@ -20,15 +20,19 @@ The approximation for this is
 </p>
 This routine gives an approximation for functions and compares relative and absolute error to investigate this approximation as *h* tends to zero. 
 
-
 **Input:**
 
 <p>
-    $f(x) = x^2$ \\
-    Value: 2 \\
-    $g(x) = x^2 + 2x + 1$ \\
-    Value: 1 \\
-    $k(x) = \sin(x)$ \\
+    $f(x) = x^2$
+    
+    Value: 2
+    
+    $g(x) = x^2 + 2x + 1$
+    
+    Value: 1
+    
+    $k(x) = \sin(x)$
+    
     Value: 0
 </p>
 **Output:** 
@@ -134,6 +138,7 @@ h                         | exactSolution             | approx                  
 </pre>
 
 **Usage/Example:**
+
 The derivative of our 
 <p>
     $f'(x) = 2x$
