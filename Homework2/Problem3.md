@@ -2,9 +2,7 @@
 
 ## Problem 3
 
-### a
-
-For 
+### a. For
 <p>
   $f(x) = \sqrt(x)$
 </p>
@@ -13,12 +11,13 @@ to rewrite the derivative formula using the following steps:
 
 **i.** multiply the numberator and denominator by the conjugate 
 <p>
-  $\left( \dfrac{\sqrt(x+h) - \sqrt(x)}{h} \times \dfrac{\frac{\sqrt(x+h) + \sqrt(x)}{\dfrac{\sqrt(x+h) + \sqrt(x)} \right)$
+  $\left( \dfrac{\sqrt{x+h} - \sqrt{x}}{h} \times \dfrac{\sqrt{x+h} + \sqrt{x}}{\sqrt{x+h} + 
+\sqrt{x}} \right)$
 </p>
 
 **ii.** simplify the expression, and
 <p>
-  $ \dfrac{x + h - x}{h(\sqrt{x+h} + x)} = \dfrac{h}{h(\sqrt{x+h} + x)} = \dfrac{1}{h(\sqrt{x+h} + x)}
+  $ \dfrac{x + h - x}{h(\sqrt{x+h} + x)} = \dfrac{h}{h(\sqrt{x+h} + x)} = \dfrac{1}{h(\sqrt{x+h} + x)} $
 </p>
 
 **iii.*** analyze the errors using the new form of the derivative
