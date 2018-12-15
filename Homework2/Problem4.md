@@ -16,8 +16,10 @@ Fixed point iteration searches for a root of a given function. Given a scalar co
 2. For *k - 0,1,2,..., set*
 <p>
   $x_{k+1} = g(x_k)
+  <br>
+until $x_{k+1}$ satisfies termination criteria 
 </p>
-until <p>$x_{k+1}$</p> satisfies termination criteria
+
 **Input:**
 <p>
   $g_1(x) = x - \dfrac{x^2-3}{10}$
@@ -51,4 +53,5 @@ def fixedPointIteration(fn, x0, tol, maxIter):
     return float(x1)
 ```
 [full code](https://KensieCarr.github.io/Math-4610/Homework2/Problem4.py)
+
 **Last Modified:** September/2018
