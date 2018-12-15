@@ -15,7 +15,7 @@ Fixed point iteration searches for a root of a given function. Given a scalar co
 
 2. For *k - 0,1,2,..., set*
 <p>
-  $x_{k+1} = g(x_k)
+  $x_{k+1} = g(x_k)$
   <br>
 until $x_{k+1}$ satisfies termination criteria 
 </p>
