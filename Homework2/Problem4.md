@@ -45,7 +45,7 @@ Tolerance: 1.0xe-5
 </pre>
 
 **Usage/Example:**
-<p> If I use the function $x^2-3$ then I can find $g(x) = x - \dfrac{1}{10}f(x)$. We pick this equation if such a sequence converges, then the limit must be a fixed point.
+<p> If I use the function $x^2-3$ then I can find $g(x) = x - \dfrac{1}{10}f(x)$. We pick this equation because if such a sequence converges, then the limit must be a fixed point.
 </p>
 
 **Implementation/Code:** 
