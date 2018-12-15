@@ -147,6 +147,9 @@ if I put in the value of 2 then my expected solution should be 4. It takes 28 it
 
 **Implementation/Code:** 
 ```python
+def derivative(fn, h):
+    return (fn(x+h) - fn(x))/h
+    
 def solveWithH(fn, expectedSolution, value, histKey):
     h1 = 1
     makeHistory(fn, h1, expectedSolution, value, histKey)
