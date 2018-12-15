@@ -108,6 +108,7 @@ h                  | exactSolution      | approx             | relError         
 1.776356839E-15    | 0.25               | 0.2500000000       | 0.000000e+00       | 0.000000e+00      
 8.881784197E-16    | 0.25               | 0.2500000000       | 0.000000e+00       | 0.000000e+00      
 </pre>
+[full code](https://KensieCarr.github.io/Math-4610/Homework2/Problem3a.py)
 
 ### b. In this problem, approximate the derivative of 
 <p>
@@ -194,3 +195,4 @@ h                  | exactSolution      | approx             | relError         
 1.490116119E-8     | 1                  | 1.000000000        | 0.000000e+00       | 0.000000e+00      
 7.450580597E-9     | 1                  | 1.000000000        | 0.000000e+00       | 0.000000e+00      
 </pre>
+[full code](https://KensieCarr.github.io/Math-4610/Homework2/Problem3b.py)
