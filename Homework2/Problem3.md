@@ -126,7 +126,7 @@ Rewrite the expression and make sure the derivative is accurately approximated a
 <p>
   $\displaystyle \sum^\infty_{n=0}(-1)^n\dfrac{x^{2n+1}}{(2n+1)!}
   
-  = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!} - \dfrac{x^7}{7!} + \dfrac{x^9}{9!} - ...
+  = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!} - \dfrac{x^7}{7!} + \dfrac{x^9}{9!} - ...$
 </p>
 <pre>
 Function:  f(x) = sin(x)
