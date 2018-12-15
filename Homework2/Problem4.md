@@ -13,24 +13,25 @@ Fixed point iteration searches for a root of a given function. Given a scalar co
 
 1. Start from ann initial guess *x0*.
 
-2. For *k - 0,1,2,..., set
+2. For *k - 0,1,2,..., set*
 <p>
   $x_{k+1} = g(x_k)
 </p>
 until <p>$x_{k+1}$</p> satisfies termination criteria
 **Input:**
 <p>
-  $g_1(x) = x - \dfrac{x^2-3}{10}$ \\
-  
-  Initial Guess: 0 \\
-    
-  $g_2(x) = x - \dfrac{\sin{\pi x}}{2}$ \\
-  
+  $g_1(x) = x - \dfrac{x^2-3}{10}$
+  <br>
+  Initial Guess: 0
+  <br>
+  $g_2(x) = x - \dfrac{\sin{\pi x}}{2}$
+  <br>
   Initial Guess: 5.9
 </p>
 Max Iterations: 100
 
 Tolerance: 1.0xe-5
+
 **Output:** 
 <pre>
 1.7320508075688772
