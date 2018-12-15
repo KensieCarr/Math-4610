@@ -21,18 +21,13 @@ until $x_{k+1}$ satisfies termination criteria
 </p>
 
 **Input:**
-<p>
-  $g_1(x) = x - \dfrac{x^2-3}{10}$
-  <br>
-  Initial Guess: 0
-  <br>
-  $g_2(x) = x - \dfrac{\sin{\pi x}}{2}$
-  <br>
-  Initial Guess: 5.9
-</p>
-Max Iterations: 100
+Function
 
-Tolerance: 1.0xe-5
+Initial Guess
+
+Tolerance
+
+Maximum Iterations
 
 **Output:** 
 <pre>
@@ -41,6 +36,22 @@ Tolerance: 1.0xe-5
 </pre>
 
 **Usage/Example:**
+<p>
+  $f_1(x) = x^2 - 3$
+  <br>
+  $g_1(x) = x - \dfrac{x^2-3}{10}$
+  <br>
+  Initial Guess: 0
+  <br>
+  $f_2(x) = \sin(\pi x)$
+  <br>
+  $g_2(x) = x - \dfrac{\sin{\pi x}}{2}$
+  <br>
+  Initial Guess: 5.9
+</p>
+Max Iterations: 100
+
+Tolerance: 1.0xe-5
 
 **Implementation/Code:** 
 ```python
