@@ -20,11 +20,14 @@
   <br>
   $f_2(x) = \sin(\pi x)$
   <br>
+  Point A: 1 Point B: 3
+  <br>
   $g_2(x) = x - \dfrac{\sin{\pi x}}{2}$
   <br>
-  Initial Guess: 5.9
+  Point A: 0.35 Point B: 1.5
+  <br>
+  Tolerance: 1.0e-5
 </p>
-Max Iterations: 100
 
 Tolerance: 1.0xe-5
 
