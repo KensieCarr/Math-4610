@@ -17,7 +17,7 @@ to rewrite the derivative formula using the following steps:
 
 **ii.** simplify the expression, and
 <p>
-  $ \dfrac{x + h - x}{h(\sqrt{x+h} + x)} = \dfrac{h}{h(\sqrt{x+h} + x)} = \dfrac{1}{h(\sqrt{x+h} + x)} $
+  $ \dfrac{x + h - x}{h(\sqrt{x+h} + x)} = \dfrac{h}{h(\sqrt{x+h} + x)} = \dfrac{1}{\sqrt{x+h} + x} $
 </p>
 
 **iii.*** analyze the errors using the new form of the derivative
