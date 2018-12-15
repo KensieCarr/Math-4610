@@ -28,4 +28,5 @@ def secantMethod(fn, x0, x1, tol, maxIter):
     return float(x1)
 ```
 [full code](https://KensieCarr.github.io/Math-4610/Homework2/Problem7.py)
+
 **Last Modified:** September/2018
