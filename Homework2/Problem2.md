@@ -31,7 +31,7 @@ This routine gives an approximation for functions and compares relative and abso
     Value: 0
 </p>
 **Output:** 
-
+'''
 Function:  f(x) = x^2
 ======================
 h                         | exactSolution             | approx                    | relError                  | absError             
@@ -129,6 +129,7 @@ h                         | exactSolution             | approx                  
 2.9802322387695312e-08    | 1                         | 1.0                       | 1.110223e-16              | 1.110223e-16             
 1.4901161193847656e-08    | 1                         | 1.0                       | 0.000000e+00              | 0.000000e+00             
 7.450580596923828e-09     | 1                         | 1.0                       | 0.000000e+00              | 0.000000e+00             
+'''
 
 **Usage/Example:**
 The derivative of our 
