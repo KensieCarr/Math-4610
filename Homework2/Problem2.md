@@ -22,6 +22,7 @@ This routine gives an approximation for functions and compares relative and abso
 
 
 **Input:**
+
 <p>
     $f(x) = x^2$ \\
     Value: 2 \\
@@ -31,7 +32,8 @@ This routine gives an approximation for functions and compares relative and abso
     Value: 0
 </p>
 **Output:** 
-'''
+
+<pre>
 Function:  f(x) = x^2
 ======================
 h                         | exactSolution             | approx                    | relError                  | absError             
@@ -129,7 +131,7 @@ h                         | exactSolution             | approx                  
 2.9802322387695312e-08    | 1                         | 1.0                       | 1.110223e-16              | 1.110223e-16             
 1.4901161193847656e-08    | 1                         | 1.0                       | 0.000000e+00              | 0.000000e+00             
 7.450580596923828e-09     | 1                         | 1.0                       | 0.000000e+00              | 0.000000e+00             
-'''
+</pre>
 
 **Usage/Example:**
 The derivative of our 
@@ -139,7 +141,7 @@ The derivative of our
 if I put in the value of 2 then my expected solution should be 4. It takes 28 iterations until the computer can't tell that the error is getting smaller because of machine epsilon.
 
 **Implementation/Code:** 
-'''python
+```python
 def solveWithH(fn, expectedSolution, value, histKey):
     h1 = 1
     makeHistory(fn, h1, expectedSolution, value, histKey)
@@ -149,8 +151,7 @@ def solveWithH(fn, expectedSolution, value, histKey):
     while (history[histKey][-1]['relError'] - history[histKey][-2]['relError'] != 0) or (history[histKey][-1]['absError'] - history[histKey][-2]['absError'] != 0):
         h1 = h1/2
         makeHistory(fn, h1, expectedSolution, value, histKey)
-
-
+        
 def makeHistory(fn, h, expectedSolution, value, histKey):
     if histKey not in history:
         history[histKey] = []
@@ -160,7 +161,7 @@ def makeHistory(fn, h, expectedSolution, value, histKey):
     history[histKey][-1]['approx'] = approx
     history[histKey][-1]['relError'] = relError(expectedSolution, approx)
     history[histKey][-1]['absError'] = absError(expectedSolution, approx)
-'''
+```
 [full code](https://KensieCarr.github.io/Math-4610/Homework2/Problem2.py)
 
 **Last Modified:** September/2018
