@@ -21,21 +21,6 @@ until $x_{k+1}$ satisfies termination criteria
 </p>
 
 **Input:**
-Function
-
-Initial Guess
-
-Tolerance
-
-Maximum Iterations
-
-**Output:** 
-<pre>
-1.7320508075688772
-6.000000000000001
-</pre>
-
-**Usage/Example:**
 <p>
   $f_1(x) = x^2 - 3$
   <br>
@@ -52,6 +37,16 @@ Maximum Iterations
 Max Iterations: 100
 
 Tolerance: 1.0xe-5
+
+**Output:** 
+<pre>
+1.7320508075688772
+6.000000000000001
+</pre>
+
+**Usage/Example:**
+<p> If I use the function $x^2-3$ then I can find $g(x) = x - \dfrac{1}{10}f(x)$. We pick this equation if such a sequence converges, then the limit must be a fixed point.
+</p>
 
 **Implementation/Code:** 
 ```python
